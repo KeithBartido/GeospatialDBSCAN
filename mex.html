@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8bb2887d9b43460f837cd7acfe5b7167 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8bb2887d9b43460f837cd7acfe5b7167" ></div>
+        
+</body>
+<script>    
+    
+            var map_8bb2887d9b43460f837cd7acfe5b7167 = L.map(
+                "map_8bb2887d9b43460f837cd7acfe5b7167",
+                {
+                    center: [14.5562297, 121.0204097],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e6f56f728513423a9bc124afd8c39e8c = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8bb2887d9b43460f837cd7acfe5b7167);
+        
+    
+            var circle_marker_ccdc412c17294775bb92d8d4d8c61b1a = L.circleMarker(
+                [14.653031493429356, 121.03382640001684],
+                {"bubblingMouseEvents": true, "color": "#fab0e4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fab0e4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8bb2887d9b43460f837cd7acfe5b7167);
+        
+    
+        var popup_6131023389ad4a71830a225c0d4ae28d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6cf5106802f74a588b078c881f8391be = $(`<div id="html_6cf5106802f74a588b078c881f8391be" style="width: 100.0%; height: 100.0%;">Original Jamaican Pattie Shop</div>`)[0];
+            popup_6131023389ad4a71830a225c0d4ae28d.setContent(html_6cf5106802f74a588b078c881f8391be);
+        
+
+        circle_marker_ccdc412c17294775bb92d8d4d8c61b1a.bindPopup(popup_6131023389ad4a71830a225c0d4ae28d)
+        ;
+
+        
+    
+    
+            var circle_marker_c87d2aef8e3b41d18bdc1ec98e77de2c = L.circleMarker(
+                [14.658799807103682, 121.05739695885595],
+                {"bubblingMouseEvents": true, "color": "#b9f2f0", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b9f2f0", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8bb2887d9b43460f837cd7acfe5b7167);
+        
+    
+        var popup_9e72d374859148d8a95ab5da68f48864 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0fae09b8e9714c009336158d4d1a7a97 = $(`<div id="html_0fae09b8e9714c009336158d4d1a7a97" style="width: 100.0%; height: 100.0%;">Jamaican Pattie Shop</div>`)[0];
+            popup_9e72d374859148d8a95ab5da68f48864.setContent(html_0fae09b8e9714c009336158d4d1a7a97);
+        
+
+        circle_marker_c87d2aef8e3b41d18bdc1ec98e77de2c.bindPopup(popup_9e72d374859148d8a95ab5da68f48864)
+        ;
+
+        
+    
+    
+            var circle_marker_5c0a88d985e44de6aeec5a1a93fbcd1a = L.circleMarker(
+                [14.656746554109278, 121.04104922273477],
+                {"bubblingMouseEvents": true, "color": "#fab0e4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fab0e4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8bb2887d9b43460f837cd7acfe5b7167);
+        
+    
+        var popup_55703455b00c4c488729c3e72d2edd9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de313df2be5b4ffbbd5207a69a3fa6c0 = $(`<div id="html_de313df2be5b4ffbbd5207a69a3fa6c0" style="width: 100.0%; height: 100.0%;">Jamaican pattie shop</div>`)[0];
+            popup_55703455b00c4c488729c3e72d2edd9c.setContent(html_de313df2be5b4ffbbd5207a69a3fa6c0);
+        
+
+        circle_marker_5c0a88d985e44de6aeec5a1a93fbcd1a.bindPopup(popup_55703455b00c4c488729c3e72d2edd9c)
+        ;
+
+        
+    
+    
+            var circle_marker_29dd1ec8fe90461b903b30323ba846a6 = L.circleMarker(
+                [14.641872957201269, 121.0405677146818],
+                {"bubblingMouseEvents": true, "color": "#ffb482", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb482", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8bb2887d9b43460f837cd7acfe5b7167);
+        
+    
+        var popup_6d6ec3dec39840d8bc272f44c9155a7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22dda22e5faf4cdc9408f55af0898a12 = $(`<div id="html_22dda22e5faf4cdc9408f55af0898a12" style="width: 100.0%; height: 100.0%;">de Original Jamaican Pattie Shop</div>`)[0];
+            popup_6d6ec3dec39840d8bc272f44c9155a7f.setContent(html_22dda22e5faf4cdc9408f55af0898a12);
+        
+
+        circle_marker_29dd1ec8fe90461b903b30323ba846a6.bindPopup(popup_6d6ec3dec39840d8bc272f44c9155a7f)
+        ;
+
+        
+    
+    
+            var circle_marker_93bc64968e424d16b620b65e9e547430 = L.circleMarker(
+                [14.629607951735526, 121.03429790843214],
+                {"bubblingMouseEvents": true, "color": "#ffb482", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb482", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8bb2887d9b43460f837cd7acfe5b7167);
+        
+    
+        var popup_0cfa0a9f7f9343a68452bf8cc79fb86c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a084f31c63c54193955c521b74830fe2 = $(`<div id="html_a084f31c63c54193955c521b74830fe2" style="width: 100.0%; height: 100.0%;">Hermanos Taco Shop</div>`)[0];
+            popup_0cfa0a9f7f9343a68452bf8cc79fb86c.setContent(html_a084f31c63c54193955c521b74830fe2);
+        
+
+        circle_marker_93bc64968e424d16b620b65e9e547430.bindPopup(popup_0cfa0a9f7f9343a68452bf8cc79fb86c)
+        ;
+
+        
+    
+    
+            var circle_marker_00aa102feeaf41df9f7f784a517fddac = L.circleMarker(
+                [14.610046739150045, 121.03682122861088],
+                {"bubblingMouseEvents": true, "color": "#d0bbff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d0bbff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8bb2887d9b43460f837cd7acfe5b7167);
+        
+    
+        var popup_b87e1ecc19dc47c18c18ae46dd88c9c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dfe16573eb7c4b63be16e511013a5380 = $(`<div id="html_dfe16573eb7c4b63be16e511013a5380" style="width: 100.0%; height: 100.0%;">Hermanos Taco Shop</div>`)[0];
+            popup_b87e1ecc19dc47c18c18ae46dd88c9c5.setContent(html_dfe16573eb7c4b63be16e511013a5380);
+        
+
+        circle_marker_00aa102feeaf41df9f7f784a517fddac.bindPopup(popup_b87e1ecc19dc47c18c18ae46dd88c9c5)
+        ;
+
+        
+    
+    
+            var circle_marker_c8b2a0de7f2f45d78f4f15d1f4b5b1b7 = L.circleMarker(
+                [14.619465319974687, 120.98541114203002],
+                {"bubblingMouseEvents": true, "color": "#debb9b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#debb9b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8bb2887d9b43460f837cd7acfe5b7167);
+        
+    
+        var popup_6e35de9057c84af6a123af22880805f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_983bb8c2702d4daf893329e761066c6b = $(`<div id="html_983bb8c2702d4daf893329e761066c6b" style="width: 100.0%; height: 100.0%;">Jamaican Pattie Shop</div>`)[0];
+            popup_6e35de9057c84af6a123af22880805f5.setContent(html_983bb8c2702d4daf893329e761066c6b);
+        
+
+        circle_marker_c8b2a0de7f2f45d78f4f15d1f4b5b1b7.bindPopup(popup_6e35de9057c84af6a123af22880805f5)
+        ;
+
+        
+    
+    
+            var circle_marker_ef9a84c0b2054c819481957e725e938a = L.circleMarker(
+                [14.597376950505108, 121.04580821048442],
+                {"bubblingMouseEvents": true, "color": "#fffea3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fffea3", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8bb2887d9b43460f837cd7acfe5b7167);
+        
+    
+        var popup_dd19c2bf6bd341929d05716cbfa1bf9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ba30e5620624357aeb73a3e2ac0ed30 = $(`<div id="html_3ba30e5620624357aeb73a3e2ac0ed30" style="width: 100.0%; height: 100.0%;">de original jamaican pattie shop</div>`)[0];
+            popup_dd19c2bf6bd341929d05716cbfa1bf9c.setContent(html_3ba30e5620624357aeb73a3e2ac0ed30);
+        
+
+        circle_marker_ef9a84c0b2054c819481957e725e938a.bindPopup(popup_dd19c2bf6bd341929d05716cbfa1bf9c)
+        ;
+
+        
+    
+    
+            var circle_marker_ad2315e00c03498f9e737c0839c9fec7 = L.circleMarker(
+                [14.610046739150045, 121.03682122861088],
+                {"bubblingMouseEvents": true, "color": "#d0bbff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d0bbff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8bb2887d9b43460f837cd7acfe5b7167);
+        
+    
+        var popup_a7698083eba8431c859d3f449b6b0ac4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0a19c4cdcd14332b1180188997bb8b0 = $(`<div id="html_f0a19c4cdcd14332b1180188997bb8b0" style="width: 100.0%; height: 100.0%;">Hermanos Taco Shop</div>`)[0];
+            popup_a7698083eba8431c859d3f449b6b0ac4.setContent(html_f0a19c4cdcd14332b1180188997bb8b0);
+        
+
+        circle_marker_ad2315e00c03498f9e737c0839c9fec7.bindPopup(popup_a7698083eba8431c859d3f449b6b0ac4)
+        ;
+
+        
+    
+    
+            var circle_marker_bd1a5d60c7da401bb55ee186eefa3092 = L.circleMarker(
+                [14.602187268499842, 121.0508917214966],
+                {"bubblingMouseEvents": true, "color": "#fffea3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fffea3", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8bb2887d9b43460f837cd7acfe5b7167);
+        
+    
+        var popup_34616a5ceb144adc9db14f610014fb5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d90b6125df9d47a6a4a573c5653464a6 = $(`<div id="html_d90b6125df9d47a6a4a573c5653464a6" style="width: 100.0%; height: 100.0%;">kaimicos shopsville</div>`)[0];
+            popup_34616a5ceb144adc9db14f610014fb5d.setContent(html_d90b6125df9d47a6a4a573c5653464a6);
+        
+
+        circle_marker_bd1a5d60c7da401bb55ee186eefa3092.bindPopup(popup_34616a5ceb144adc9db14f610014fb5d)
+        ;
+
+        
+    
+    
+            var circle_marker_466930b6414846c6a9ce363f4f507893 = L.circleMarker(
+                [14.57139, 121.04718000000001],
+                {"bubblingMouseEvents": true, "color": "#a1c9f4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a1c9f4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8bb2887d9b43460f837cd7acfe5b7167);
+        
+    
+        var popup_25703e9b26074b0dabbc0238f4221a9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b61c9e2ebdf48948fca8d1912eb9461 = $(`<div id="html_2b61c9e2ebdf48948fca8d1912eb9461" style="width: 100.0%; height: 100.0%;">De Original Jamaican Pattie Shop</div>`)[0];
+            popup_25703e9b26074b0dabbc0238f4221a9d.setContent(html_2b61c9e2ebdf48948fca8d1912eb9461);
+        
+
+        circle_marker_466930b6414846c6a9ce363f4f507893.bindPopup(popup_25703e9b26074b0dabbc0238f4221a9d)
+        ;
+
+        
+    
+    
+            var circle_marker_92017b99ce934f2a916f91a43227c871 = L.circleMarker(
+                [14.565229971199932, 121.03625645223124],
+                {"bubblingMouseEvents": true, "color": "#a1c9f4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a1c9f4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8bb2887d9b43460f837cd7acfe5b7167);
+        
+    
+        var popup_617bb30810b24f76928a5739254514ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31786582b4044d0a808db7b72ac1f9ed = $(`<div id="html_31786582b4044d0a808db7b72ac1f9ed" style="width: 100.0%; height: 100.0%;">Jamaican Pattie Shop Powerplant</div>`)[0];
+            popup_617bb30810b24f76928a5739254514ea.setContent(html_31786582b4044d0a808db7b72ac1f9ed);
+        
+
+        circle_marker_92017b99ce934f2a916f91a43227c871.bindPopup(popup_617bb30810b24f76928a5739254514ea)
+        ;
+
+        
+    
+    
+            var circle_marker_b7121b21b65c41afaed46c3a80fc2806 = L.circleMarker(
+                [14.565229971199932, 121.03625645223124],
+                {"bubblingMouseEvents": true, "color": "#a1c9f4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a1c9f4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8bb2887d9b43460f837cd7acfe5b7167);
+        
+    
+        var popup_257207751b9145978c602d259d455905 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2a82ffe7ddd455bb1b1768f347fcabc = $(`<div id="html_c2a82ffe7ddd455bb1b1768f347fcabc" style="width: 100.0%; height: 100.0%;">Jamaican Pattie Shop Powerplant</div>`)[0];
+            popup_257207751b9145978c602d259d455905.setContent(html_c2a82ffe7ddd455bb1b1768f347fcabc);
+        
+
+        circle_marker_b7121b21b65c41afaed46c3a80fc2806.bindPopup(popup_257207751b9145978c602d259d455905)
+        ;
+
+        
+    
+    
+            var circle_marker_41647fce09f94616bff0c796498cbace = L.circleMarker(
+                [14.565229971199932, 121.03625645223124],
+                {"bubblingMouseEvents": true, "color": "#a1c9f4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a1c9f4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8bb2887d9b43460f837cd7acfe5b7167);
+        
+    
+        var popup_fa6768b45bfc46938f7628b027cc6baf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e31d609eff144f88e6bed02bccb7cf4 = $(`<div id="html_3e31d609eff144f88e6bed02bccb7cf4" style="width: 100.0%; height: 100.0%;">Jamaican Pattie Shop Powerplant</div>`)[0];
+            popup_fa6768b45bfc46938f7628b027cc6baf.setContent(html_3e31d609eff144f88e6bed02bccb7cf4);
+        
+
+        circle_marker_41647fce09f94616bff0c796498cbace.bindPopup(popup_fa6768b45bfc46938f7628b027cc6baf)
+        ;
+
+        
+    
+    
+            var circle_marker_1070966b652c4a27960f9413a6713f9e = L.circleMarker(
+                [14.56033448089916, 121.04025417352028],
+                {"bubblingMouseEvents": true, "color": "#a1c9f4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a1c9f4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8bb2887d9b43460f837cd7acfe5b7167);
+        
+    
+        var popup_242c20c360a54463a16b742237c69a20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b9aa5a7f32a4620a4ea57521dffcdc2 = $(`<div id="html_6b9aa5a7f32a4620a4ea57521dffcdc2" style="width: 100.0%; height: 100.0%;">Esquinita Sisig + Taco Shop</div>`)[0];
+            popup_242c20c360a54463a16b742237c69a20.setContent(html_6b9aa5a7f32a4620a4ea57521dffcdc2);
+        
+
+        circle_marker_1070966b652c4a27960f9413a6713f9e.bindPopup(popup_242c20c360a54463a16b742237c69a20)
+        ;
+
+        
+    
+    
+            var circle_marker_6267ba260e2443b7ada0a2eb929ee802 = L.circleMarker(
+                [14.565229971199932, 121.03625645223124],
+                {"bubblingMouseEvents": true, "color": "#a1c9f4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a1c9f4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8bb2887d9b43460f837cd7acfe5b7167);
+        
+    
+        var popup_2eb9d792e3c74c06a0100c7e635a9abf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4eddb88608db4742b175abfe4d81872e = $(`<div id="html_4eddb88608db4742b175abfe4d81872e" style="width: 100.0%; height: 100.0%;">Jamaican Pattie Shop Powerplant</div>`)[0];
+            popup_2eb9d792e3c74c06a0100c7e635a9abf.setContent(html_4eddb88608db4742b175abfe4d81872e);
+        
+
+        circle_marker_6267ba260e2443b7ada0a2eb929ee802.bindPopup(popup_2eb9d792e3c74c06a0100c7e635a9abf)
+        ;
+
+        
+    
+    
+            var circle_marker_2194ccefe33d43bf80aecd8afd90ef3d = L.circleMarker(
+                [14.56033448089916, 121.04025417352028],
+                {"bubblingMouseEvents": true, "color": "#a1c9f4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a1c9f4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8bb2887d9b43460f837cd7acfe5b7167);
+        
+    
+        var popup_1c9fd6c71ef5453eaf588c22fc374b9e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19c9426a58004a7b8b49cce9008bea68 = $(`<div id="html_19c9426a58004a7b8b49cce9008bea68" style="width: 100.0%; height: 100.0%;">Esquinita Sisig + Taco Shop</div>`)[0];
+            popup_1c9fd6c71ef5453eaf588c22fc374b9e.setContent(html_19c9426a58004a7b8b49cce9008bea68);
+        
+
+        circle_marker_2194ccefe33d43bf80aecd8afd90ef3d.bindPopup(popup_1c9fd6c71ef5453eaf588c22fc374b9e)
+        ;
+
+        
+    
+    
+            var circle_marker_16f4127d62c145dbaa1cd932772d4cbb = L.circleMarker(
+                [14.56033448089916, 121.04025417352028],
+                {"bubblingMouseEvents": true, "color": "#a1c9f4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a1c9f4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8bb2887d9b43460f837cd7acfe5b7167);
+        
+    
+        var popup_cbb97f79d1664ebcadb7ea0395829ebb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5c4c52624f642e8972e3d6539f02b39 = $(`<div id="html_b5c4c52624f642e8972e3d6539f02b39" style="width: 100.0%; height: 100.0%;">Esquinita Sisig + Taco Shop</div>`)[0];
+            popup_cbb97f79d1664ebcadb7ea0395829ebb.setContent(html_b5c4c52624f642e8972e3d6539f02b39);
+        
+
+        circle_marker_16f4127d62c145dbaa1cd932772d4cbb.bindPopup(popup_cbb97f79d1664ebcadb7ea0395829ebb)
+        ;
+
+        
+    
+    
+            var circle_marker_2ccb2f1c3fc543fc914264284293bb52 = L.circleMarker(
+                [14.565229971199932, 121.03625645223124],
+                {"bubblingMouseEvents": true, "color": "#a1c9f4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a1c9f4", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8bb2887d9b43460f837cd7acfe5b7167);
+        
+    
+        var popup_461584dace9a40eeaaa57812ec81055f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f45f1cfba2b494e8d4a1fd82147649a = $(`<div id="html_9f45f1cfba2b494e8d4a1fd82147649a" style="width: 100.0%; height: 100.0%;">Jamaican Pattie Shop Powerplant</div>`)[0];
+            popup_461584dace9a40eeaaa57812ec81055f.setContent(html_9f45f1cfba2b494e8d4a1fd82147649a);
+        
+
+        circle_marker_2ccb2f1c3fc543fc914264284293bb52.bindPopup(popup_461584dace9a40eeaaa57812ec81055f)
+        ;
+
+        
+    
+    
+            var circle_marker_1e8d03766dd54776ba73e222efcda8e2 = L.circleMarker(
+                [14.470293108836989, 121.01911116602876],
+                {"bubblingMouseEvents": true, "color": "#8de5a1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8de5a1", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8bb2887d9b43460f837cd7acfe5b7167);
+        
+    
+        var popup_db2b2bfa9a3b4279969aaabaad39ba66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ebab305858a411db5790b5ca6dc9402 = $(`<div id="html_9ebab305858a411db5790b5ca6dc9402" style="width: 100.0%; height: 100.0%;">The Coffee Shop</div>`)[0];
+            popup_db2b2bfa9a3b4279969aaabaad39ba66.setContent(html_9ebab305858a411db5790b5ca6dc9402);
+        
+
+        circle_marker_1e8d03766dd54776ba73e222efcda8e2.bindPopup(popup_db2b2bfa9a3b4279969aaabaad39ba66)
+        ;
+
+        
+    
+    
+            var circle_marker_2d4f02feab7146ce9291b6daef3e4a4c = L.circleMarker(
+                [14.450321973924543, 121.01862507912355],
+                {"bubblingMouseEvents": true, "color": "#8de5a1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8de5a1", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8bb2887d9b43460f837cd7acfe5b7167);
+        
+    
+        var popup_098f6ef1b94d4c1092a5f561c4a6ea89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7cf6bbb556bd4afe9f5b3d0bb68ba809 = $(`<div id="html_7cf6bbb556bd4afe9f5b3d0bb68ba809" style="width: 100.0%; height: 100.0%;">Drive- by Taco Shop</div>`)[0];
+            popup_098f6ef1b94d4c1092a5f561c4a6ea89.setContent(html_7cf6bbb556bd4afe9f5b3d0bb68ba809);
+        
+
+        circle_marker_2d4f02feab7146ce9291b6daef3e4a4c.bindPopup(popup_098f6ef1b94d4c1092a5f561c4a6ea89)
+        ;
+
+        
+    
+    
+            var circle_marker_67b21351ab604b6b89f5caa6de6d4470 = L.circleMarker(
+                [14.441802351692052, 120.99023729578695],
+                {"bubblingMouseEvents": true, "color": "#cfcfcf", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cfcfcf", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8bb2887d9b43460f837cd7acfe5b7167);
+        
+    
+        var popup_d4d37eee35d84050a34cb95f8224963b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94a352ed4d424e4da780dc31e511797d = $(`<div id="html_94a352ed4d424e4da780dc31e511797d" style="width: 100.0%; height: 100.0%;">Drive-By Taco Shop</div>`)[0];
+            popup_d4d37eee35d84050a34cb95f8224963b.setContent(html_94a352ed4d424e4da780dc31e511797d);
+        
+
+        circle_marker_67b21351ab604b6b89f5caa6de6d4470.bindPopup(popup_d4d37eee35d84050a34cb95f8224963b)
+        ;
+
+        
+    
+    
+            var circle_marker_7ad7c750a18d46f2a84efab934e87b11 = L.circleMarker(
+                [14.609703437171767, 121.08095170715937],
+                {"bubblingMouseEvents": true, "color": "#ff9f9b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9f9b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8bb2887d9b43460f837cd7acfe5b7167);
+        
+    
+        var popup_ed95214187e1437fb8f61252c663e47f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3b589df646245adb67b259c104a5150 = $(`<div id="html_e3b589df646245adb67b259c104a5150" style="width: 100.0%; height: 100.0%;">Jamaican Pattie Shop</div>`)[0];
+            popup_ed95214187e1437fb8f61252c663e47f.setContent(html_e3b589df646245adb67b259c104a5150);
+        
+
+        circle_marker_7ad7c750a18d46f2a84efab934e87b11.bindPopup(popup_ed95214187e1437fb8f61252c663e47f)
+        ;
+
+        
+    
+    
+            var circle_marker_b5be408cbab442c095bde332ec72a7d2 = L.circleMarker(
+                [14.610024, 121.08125],
+                {"bubblingMouseEvents": true, "color": "#ff9f9b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9f9b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8bb2887d9b43460f837cd7acfe5b7167);
+        
+    
+        var popup_86f21abfba5443e7b437aad00fe52d90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a8fc9d0bbfd4861abd067d8f10bacdb = $(`<div id="html_7a8fc9d0bbfd4861abd067d8f10bacdb" style="width: 100.0%; height: 100.0%;">Drive-By Taco Shop</div>`)[0];
+            popup_86f21abfba5443e7b437aad00fe52d90.setContent(html_7a8fc9d0bbfd4861abd067d8f10bacdb);
+        
+
+        circle_marker_b5be408cbab442c095bde332ec72a7d2.bindPopup(popup_86f21abfba5443e7b437aad00fe52d90)
+        ;
+
+        
+    
+    
+            var circle_marker_65c052355a6b4d109ee6f1300afb55d3 = L.circleMarker(
+                [14.610046739150045, 121.03682122861088],
+                {"bubblingMouseEvents": true, "color": "#d0bbff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d0bbff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_8bb2887d9b43460f837cd7acfe5b7167);
+        
+    
+        var popup_752d4882a7b14970980d5555bd2d378f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82bc75fdc746472aad9f9fa0b6386e3a = $(`<div id="html_82bc75fdc746472aad9f9fa0b6386e3a" style="width: 100.0%; height: 100.0%;">Hermanos Taco Shop</div>`)[0];
+            popup_752d4882a7b14970980d5555bd2d378f.setContent(html_82bc75fdc746472aad9f9fa0b6386e3a);
+        
+
+        circle_marker_65c052355a6b4d109ee6f1300afb55d3.bindPopup(popup_752d4882a7b14970980d5555bd2d378f)
+        ;
+
+        
+    
+</script>
